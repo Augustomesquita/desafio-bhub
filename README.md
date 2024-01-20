@@ -6,7 +6,7 @@ Este projeto implementa um sistema de processamento de pagamentos para uma empre
 
 ## Estrutura do Projeto
 
-O projeto é composto por três principais componentes:
+O projeto é composto por quatro componentes principais, sendo eles:
 
 1. **PaymentProcessor:** Este é o componente principal que coordena o processamento de pagamentos. Ele utiliza o padrão Strategy para delegar dinamicamente o processamento para diferentes instâncias de `PaymentRule`.
 
