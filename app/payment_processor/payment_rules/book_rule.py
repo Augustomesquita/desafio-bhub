@@ -1,4 +1,4 @@
-from payment_processor.payment_processor import PaymentProcessor
+from app.payment_processor.payment_processor import PaymentProcessor
 
 
 class BookRule(PaymentProcessor):

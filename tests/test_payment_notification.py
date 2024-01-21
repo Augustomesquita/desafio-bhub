@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from notifications.payment_notification import PaymentNotification
+from app.notifications.payment_notification import PaymentNotification
 
 
 class TestPaymentNotification(unittest.TestCase):

@@ -1,9 +1,9 @@
-from notifications.payment_notification import PaymentNotification
-from notifiers.email_notifier import EmailNotifier
-from payment_processor.payment_processor import PaymentProcessor
-from payment_processor.payment_rules.book_rule import BookRule
-from payment_processor.payment_rules.upgrade_rule import UpgradeRule
-from payment_processor.payment_rules.physical_product_rule import PhysicalProductRule
+from app.notifications.payment_notification import PaymentNotification
+from app.notifiers.email_notifier import EmailNotifier
+from app.payment_processor.payment_processor import PaymentProcessor
+from app.payment_processor.payment_rules.book_rule import BookRule
+from app.payment_processor.payment_rules.upgrade_rule import UpgradeRule
+from app.payment_processor.payment_rules.physical_product_rule import PhysicalProductRule
 
 if __name__ == "__main__":
     # Cria instâncias para notificação

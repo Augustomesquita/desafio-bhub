@@ -1,5 +1,5 @@
-from notifications.payment_notification import PaymentNotification
-from payment_processor.payment_processor import PaymentProcessor
+from app.notifications.payment_notification import PaymentNotification
+from app.payment_processor.payment_processor import PaymentProcessor
 
 
 class UpgradeRule(PaymentProcessor):

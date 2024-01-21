@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch
 
-from notifiers.email_notifier import EmailNotifier
+from app.notifiers.email_notifier import EmailNotifier
 
 
 class TestEmailNotifier(unittest.TestCase):

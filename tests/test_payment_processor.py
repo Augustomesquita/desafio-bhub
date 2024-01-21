@@ -1,11 +1,11 @@
 import unittest
 from unittest.mock import patch
 
-from notifications.payment_notification import PaymentNotification
-from payment_processor.payment_processor import PaymentProcessor
-from payment_processor.payment_rules.book_rule import BookRule
-from payment_processor.payment_rules.physical_product_rule import PhysicalProductRule
-from payment_processor.payment_rules.upgrade_rule import UpgradeRule
+from app.notifications.payment_notification import PaymentNotification
+from app.payment_processor.payment_processor import PaymentProcessor
+from app.payment_processor.payment_rules.book_rule import BookRule
+from app.payment_processor.payment_rules.physical_product_rule import PhysicalProductRule
+from app.payment_processor.payment_rules.upgrade_rule import UpgradeRule
 
 
 class TestPaymentProcessor(unittest.TestCase):
