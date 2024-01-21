@@ -50,3 +50,7 @@ O padrão observer é empregado para fornecer uma maneira flexível de notificar
 ### Execução
 ```bash
 python main.py
+```
+
+## Possível arquitetura do projeto rodando na AWS
+![Imagem da Arquitetura](./docs/arquitetura_bhub.jpg)
