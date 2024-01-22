@@ -54,3 +54,6 @@ python main.py
 
 ## Possível arquitetura do projeto rodando na AWS
 ![Imagem da Arquitetura](./docs/arquitetura_bhub.jpg)
+
+## TODO: Melhoria
+Realizei a implementação utilizando o padrão observer apenas para ilustração de solução local, porém uma abordagem mais apropriada para um projeto real seria utilizarmos o componente SNS da AWS para realizarmos o disparo de notificações (eventos) do sistema. A partir daí poderíamos conectar o SES para consumir esse eventos e realizar o envio do e-mail ou consumir em algum outro serviço que tenhamos.
