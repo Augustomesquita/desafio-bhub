@@ -5,3 +5,4 @@ class PhysicalProductRule(PaymentProcessor):
     def process_payment(self, payment):
         print("Gerando guia de remessa para envio...")
         print("Guia de remessa para envio gerada com sucesso!")
+        print("Pagamento de comissão para agente gerado com sucesso!")

@@ -47,9 +47,14 @@ O padrão observer é empregado para fornecer uma maneira flexível de notificar
 ### Requisitos
 - Python 3.x
 
-### Execução
+### Execução do aplicativo (precisa estar na raíz do projeto, pasta desafio-hub)
 ```bash
-python main.py
+python -m app
+```
+
+### Execução de testes do aplicativo (precisa estar na raíz do projeto, pasta desafio-hub)
+```bash
+python -m unittest -v
 ```
 
 ## Possível arquitetura do projeto rodando na AWS
